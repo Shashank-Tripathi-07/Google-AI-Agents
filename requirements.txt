@@ -1,0 +1,55 @@
+# Intelligent Customer Support Triage System
+# Requirements file for optional integrations
+
+# ============================================================================
+# CORE (No dependencies required for base demo)
+# ============================================================================
+# The system runs standalone with zero external dependencies!
+
+# ============================================================================
+# OPTIONAL: For Gemini Integration (5 bonus points)
+# ============================================================================
+google-generativeai>=0.3.0
+# Uncomment to add Gemini-powered agent responses
+
+# ============================================================================
+# OPTIONAL: For Production Deployment
+# ============================================================================
+# flask>=2.3.0                # Web API
+# gunicorn>=21.2.0            # Production server
+# redis>=5.0.0                # Persistent sessions
+# sqlalchemy>=2.0.0           # Database ORM
+# psycopg2-binary>=2.9.0      # PostgreSQL driver
+
+# ============================================================================
+# OPTIONAL: For Enhanced Observability
+# ============================================================================
+# prometheus-client>=0.19.0   # Metrics export
+# opentelemetry-api>=1.20.0   # Distributed tracing
+# python-json-logger>=2.0.0   # Structured logging
+
+# ============================================================================
+# OPTIONAL: For Testing
+# ============================================================================
+# pytest>=7.4.0               # Testing framework
+# pytest-cov>=4.1.0           # Coverage reports
+# pytest-asyncio>=0.21.0      # Async test support
+
+# ============================================================================
+# OPTIONAL: For Development
+# ============================================================================
+# black>=23.0.0               # Code formatting
+# flake8>=6.1.0               # Linting
+# mypy>=1.5.0                 # Type checking
+
+# ============================================================================
+# INSTALLATION
+# ============================================================================
+# For base demo (no dependencies):
+#   python support_triage_system.py
+#
+# For Gemini integration:
+#   pip install google-generativeai
+#
+# For full production stack:
+#   pip install -r requirements.txt
